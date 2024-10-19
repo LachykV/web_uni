@@ -7,8 +7,8 @@
     
 }
 .about__content{
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-top: 150px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
     font-size: 19px;
 }
 .about__text{
-    font-size: 17px;
+    font-size: 15px;
 }
 .about__list-item{
     margin-right: 10px;
