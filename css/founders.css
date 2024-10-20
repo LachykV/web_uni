@@ -79,3 +79,12 @@
     color: var(--description-text-color); 
     fill: var(--description-text-color);
 }
+
+@media (min-width: 992px) {
+    .founders_title {
+        font-size: 46px;
+    }
+    .founders-descriptions {
+        font-size: 19px;
+    }
+}
