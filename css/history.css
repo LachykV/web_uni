@@ -21,7 +21,6 @@
     font-weight: 700;
     text-align: center;
     color: var(title-color);
-    margin-bottom: 20px;
     font-family: BenchNine, sans-serif;
   }
   .history__description {
@@ -52,6 +51,7 @@
   }
   .history-card__image {
     object-fit: cover;
+    margin-top: 20px;
     margin-bottom: 20px;
     display: block;
     position: relative;

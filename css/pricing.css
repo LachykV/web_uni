@@ -1,7 +1,7 @@
 .pricing {
     padding: 90px 24px;
     background:linear-gradient(rgba(31, 31, 31, 0.9), rgba(31, 31, 31, 0.9)), 
-        url(../img/pricing/pricing-background.webp);
+        url(../img/pricing/subjects-bg.png);
     background-attachment: fixed;
     background-position: 53% 50%;
     background-size: cover;

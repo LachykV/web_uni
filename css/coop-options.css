@@ -39,25 +39,31 @@
     gap: 30px;
     padding-top: 50px;
 }
-.cooperation-consulting,
-.cooperation-tobacco,
-.cooperation-cigar {
+.cooperation-gryffindor,
+.cooperation-hufflepuff,
+.cooperation-ravenclaw,
+.cooperation-slytherin {
     padding: 60px 0 120px;
     width: 90%;
 }
-.cooperation-consulting {
-    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/man-in-field.webp");
+.cooperation-gryffindor {
+    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/gryffindor.jpg");
     background-position: center;
     background-size: cover;
 }
-.cooperation-tobacco {
-    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/tobacco-woman.webp");
+.cooperation-hufflepuff {
+    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/hufflepuff.jpg");
     background-position: top;
     background-size: cover;
 }
-.cooperation-cigar {
-    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/cigars-pack.webp");
+.cooperation-ravenclaw {
+    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/ravenclaw.jpg");
     background-position: center;
+    background-size: cover;
+}
+.cooperation-slytherin {
+    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(8, 7, 7, 0.73)), url("../img/coop-options/slytherin.jpg");
+    background-position: top;
     background-size: cover;
 }
 .cooperation__button, .cooperation__button:visited {

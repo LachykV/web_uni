@@ -36,6 +36,10 @@
     justify-content: space-around;
     flex-direction: column;
 }
+.about__text{
+    padding: 10px 0px 10px 0px;
+}
+
 .about__list{
     display: flex;
     flex-direction: row;

@@ -1,71 +1,107 @@
-.gallery{
-    padding-bottom: 95px;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../img/gallery/backround-gallery.webp);
-    background-size: cover;
+.gallery {
+  padding-bottom: 95px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(29, 24, 22, 0.5)), url(../img/gallery/backround-gallery.webp);
+  background-size: cover;
 }
-.gallery__content{
+
+.gallery__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.gallery__content__title {
+  font-weight: bold;
+  font-size: 51px;
+  letter-spacing: 2px;
+}
+
+.gallery__content__txt {
+  color: var(--description-text-color);
+  font-size: 21px;
+  padding: 20px;
+}
+
+.gallery .container {
+  position: relative;
+  min-height: 300px;
+}
+
+.gallery .gallery__carousel {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 20px;
+}
+
+.carousel-image {
+  max-width: 300px;
+  width: auto;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .gallery .gallery__carousel {
+    width: 500px;
+  }
+
+  .gallery__content {
     display: flex;
+    align-items: center;
     flex-direction: column;
     text-align: center;
-    align-items: center;
-}
-.gallery__content__title{
-    font-weight: bold;
-    font-size: 51px;
-    letter-spacing: 2px;
-}
-.gallery__content__txt{
-    color: var(--description-text-color);
-    font-size: 21px;
-    padding: 20px;
-}
-.gallery .container {
-    position: relative;
-    min-height: 300px;
   }
-  
+}
+
+@media (min-width: 980px) {
   .gallery .gallery__carousel {
-    display: flex;
-    width: 250px;
-    justify-content: center;
-    align-self: center;
-    
+    width: 750px;
   }
-  .carousel-image{
-      max-width: 300px;
-      width: auto;
-      height:auto;
-  }
-  
-  @media (min-width: 768px) {
-    .gallery .gallery__carousel {
-      width: 500px;
-    }
-    .gallery__content{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-    
-  }
-  @media (min-width: 980px) {
-    .gallery .gallery__carousel {
-      width: 750px;
-    }
-  }
-  
+}
+
+/* Arrow Styles */
+.arrow-button {
+  position: absolute;
+  top: 57%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+  border: none;
+  width: 40px; /* Increased size */
+  height: 50px; /* Increased size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px; /* Make the arrow itself larger */
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.arrow-button:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+}
+
+/* Positioning arrows */
+.left-arrow {
+  left: -70px; /* Closer to the carousel */
+}
+
+.right-arrow {
+  right: -70px; /* Closer to the carousel */
+}
+
+/* Adjust for larger screens */
+@media (min-width: 980px) {
   .left-arrow {
-    left: -130px;
+    left: -100px; /* Move slightly farther on large screens */
   }
-  
+
   .right-arrow {
-    right: -130px;
+    right: -100px;
   }
-  .gallery__carousel{
-    gap: 20px;
-  }
+}

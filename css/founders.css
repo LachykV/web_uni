@@ -1,5 +1,5 @@
 .founders {
-    background-image: url(../img/background-gray-wall.webp);
+    background-image: url(../img/page-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -40,25 +40,32 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.face-john {
+.face-gryffindor {
     width: 70px; 
     height: 70px; 
     border-radius: 50%;
-    background: url(../img/founders/john_bomstrom.webp) no-repeat -30px 0;
+    background: url(../img/founders/gryffindor-port.png) no-repeat -20px 0;
     background-size: auto 80px;
 }
-.face-jack {
+.face-hufflepuff {
     width: 70px; 
     height: 70px; 
     border-radius: 50%; 
-    background: url(../img/founders/jack_bomstrom.webp) no-repeat -30px 0;
+    background: url(../img/founders/hufflepuff-port.png) no-repeat -30px 0;
     background-size: auto 80px;
 }
-.face-hugh {
+.face-ravenclaw {
     width: 70px; 
     height: 70px; 
     border-radius: 50%; 
-    background: url(../img/founders/hugh_bomstrom.webp) no-repeat -4px 0; 
+    background: url(../img/founders/ravenclaw-port.png) no-repeat -55px 0; 
+    background-size: auto 120px;
+}
+.face-slytherin {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    background: url(../img/founders/slytherin-port.png) no-repeat -40px 0; 
     background-size: auto 120px;
 }
 .founders-john-title {

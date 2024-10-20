@@ -1,6 +1,6 @@
 .contact {
     flex-direction: column;
-    background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url("../img/contact-form/smoke-and-cigar.webp");
+    background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url("../img/contact-form/contact-bg.jpg");
     background-position: center;
     margin: auto;
     background-size: cover;
