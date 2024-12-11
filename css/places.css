@@ -1,5 +1,5 @@
-.brands {
-  background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url("../img/brands/places-bg.jpg");
+.places {
+  background: linear-gradient(rgba(33, 32, 32, 0.84), rgba(33, 32, 32, 0.84)), url("../img/places/places-bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,30 +7,30 @@
   padding: 50px 0 50px;
 }
 
-.brands .container {
+.places .container {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.brands__title {
+.places__title {
   color: var(--title-color);
   font-size: 34px;
 }
 
-.brands__description {
+.places__description {
   color: var(--text-color);
   font-size: 17px;
   text-align: center;
 }
 
-.brand__description {
+.place__description {
   color: var(--text-color);
   font-size: 17px;
   text-align: left; /* Align text to the left */
 }
 
-.brands__content {
+.places__content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,24 +38,24 @@
   gap: 20px;
 }
 
-.brand__image {
+.place__image {
   width: 15%; /* Reduce image size */
   height: auto;
 }
 
-.brand__title {
+.place__title {
   font-size: 22px;
   color: var(--title-color);
 }
 
-.brands__list {
+.places__list {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.brands__items {
+.places__items {
   width: 100%;
   height: 100%;
   display: flex;
@@ -66,7 +66,7 @@
   padding: 20px 0 20px;
 }
 
-.brand_item {
+.place_item {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -80,7 +80,7 @@
 }
 
 @media (min-width: 769px) {
-  .brand_item {
+  .place_item {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -90,16 +90,16 @@
     gap: 50px;
   }
 
-  .brand__image {
+  .place__image {
     width: 10%;
     height: auto;
   }
 
-  .brand__title {
+  .place__title {
     width: 20%; /* Smaller width for the title */
   }
 
-  .brand__description {
+  .place__description {
     width: 60%; /* Larger width for the description */
   }
 }

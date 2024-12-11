@@ -1,101 +1,101 @@
-.history {
-    background-color: var(--background-color);
+.advantages {
+  background-color: var(--background-color);
+}
+.advantages__content {
+  padding-bottom: 90px;
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+}
+.advantages-title__container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 50px;
+}
+.advantages__title {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  color: var(title-color);
+  font-family: BenchNine, sans-serif;
+}
+.advantages__description {
+  font-size: 19px;
+  text-align: center;
+  color: var(--description-text-color);
+  font-family: Roboto, sans-serif;
+}
+.advantages__list {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .advantages__list {
+    grid-template-columns: 1fr 1fr;
   }
-  .history__content {
-    padding-bottom: 90px;
-    padding-left: 24px;
-    padding-right: 24px;
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
+}
+@media (min-width: 992px) {
+  .advantages__list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .history-title__container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 50px;
-  }
-  .history__title {
-    font-size: 34px;
-    font-weight: 700;
-    text-align: center;
-    color: var(title-color);
-    font-family: BenchNine, sans-serif;
-  }
-  .history__description {
-    font-size: 19px;
-    text-align: center;
-    color: var(--description-text-color);
-    font-family: Roboto, sans-serif;
-  }
-  .history__list {
-    display: grid;
-  }
-  @media (min-width: 768px) {
-    .history__list {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  @media (min-width: 992px) {
-    .history__list {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-  }
-  .history-card {
-    padding: 20px;
-    background-color: var(--background-color);
-    border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .history-card__image {
-    object-fit: cover;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    position: relative;
-    min-height: 32px;
-    max-height: 290px;
-    overflow: hidden;
-  }
-  .history-card__title {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: var(--title-color);
-    font-family: BenchNine, sans-serif;
-    text-align: left;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .history-card__description {
-    font-size: 17px;
-    color: var(--text-color-light);
-    font-family: Roboto, sans-serif;
-    text-align: left;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .history__link {
-    margin-top: 40px;
-    text-align: center;
-  }
-  .history-link__button {
-    font-size: 17px;
-    display: inline-block;
-    position: relative;
-    padding: 10px 20px;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    font-family: BenchNine, sans-serif;
-    border-bottom-width: 1.6px;
-    border-color: var(--text-color);
-    border: 2px solid var(--text-color);
-  }
-  .history-link__button:hover {
-    background-color: var(--text-color);
-    color: var(--alternative-text-color);
-    text-decoration: none;
-  }
+}
+.advantages-card {
+  padding: 20px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.advantages-card__image {
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  position: relative;
+  min-height: 32px;
+  max-height: 290px;
+  overflow: hidden;
+}
+.advantages-card__title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: var(--title-color);
+  font-family: BenchNine, sans-serif;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.advantages-card__description {
+  font-size: 17px;
+  color: var(--text-color-light);
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.advantages__link {
+  margin-top: 40px;
+  text-align: center;
+}
+.advantages-link__button {
+  font-size: 17px;
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: BenchNine, sans-serif;
+  border-bottom-width: 1.6px;
+  border-color: var(--text-color);
+  border: 2px solid var(--text-color);
+}
+.advantages-link__button:hover {
+  background-color: var(--text-color);
+  color: var(--alternative-text-color);
+  text-decoration: none;
+}

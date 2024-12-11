@@ -1,7 +1,7 @@
-.pricing {
+.study { 
     padding: 90px 24px;
-    background:linear-gradient(rgba(31, 31, 31, 0.9), rgba(31, 31, 31, 0.9)), 
-        url(../img/pricing/subjects-bg.png);
+    background: linear-gradient(rgba(31, 31, 31, 0.9), rgba(31, 31, 31, 0.9)), 
+        url(../img/study/subjects-bg.png);
     background-attachment: fixed;
     background-position: 53% 50%;
     background-size: cover;
@@ -12,14 +12,14 @@
     align-items: center;
 }
 
-.pricing__title, .pricing__item-type, .pricing__item-price {
+.study__title, .study__item-type, .study__item-price {
     font-family: "BenchNine", sans-serif;
     color: var(--title-color);
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.pricing__header {
+.study__header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,13 +27,13 @@
     width: 100%;
 }
 
-.pricing__title {
+.study__title {
     text-transform: uppercase;
     font-size: 34px;
     letter-spacing: 1.02px;
 }
 
-.pricing__title-underscore {
+.study__title-underscore {
     background-image: url(../img/block-title-underscore.png);
     background-position: 50% 50%;
     background-size:contain;
@@ -43,7 +43,7 @@
     width: 100%;
 }
 
-.pricing__description {
+.study__description {
     margin-top: 20px;
     color: var(--description-text-color);
     font-size: 19px;
@@ -51,7 +51,7 @@
     text-align: center;
 }
 
-.pricing__list {
+.study__list {
     margin-top: 45px;
     list-style-type: none;
     display: flex;
@@ -60,11 +60,11 @@
     max-width: 1170px;
 }
 
-.pricing__item:first-child {
+.study__item:first-child {
     margin-top: 0;
 }
 
-.pricing__item {
+.study__item {
     display: grid;
     grid-template-rows: repeat(5, auto);
     row-gap: 50px;
@@ -75,21 +75,21 @@
     background-color: rgba(31, 31, 31, 0.5);
 }
 
-.pricing__item-image {
+.study__item-image {
     height: 50px;
 }
 
-.pricing__item-type, .pricing__item-price{
+.study__item-type, .study__item-price{
     font-size: 22px;
     letter-spacing: 0.66px;
 }
 
-.pricing__item-pack {
+.study__item-pack {
     color: white;
     font-size: 17px;
 }
 
-.pricing__item-price-per {
+.study__item-price-per {
     font-family: "BenchNine", sans-serif;
     letter-spacing: 0.54px;
     color: var(--description-text-color);
@@ -97,7 +97,7 @@
     font-weight: bold;
 }
 
-.pricing__item-divider {
+.study__item-divider {
     width: 1px;
     height: 25px;
     background-color: white;
@@ -105,13 +105,13 @@
     margin-right: 5px;
 }
 
-.pricing__item-details {
+.study__item-details {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.pricing__item-order, .pricing__item-order:visited {
+.study__item-order, .study__item-order:visited {
     display: inline-block;
     color: var(--text-color);
     background-color: var(--title-color);
@@ -129,7 +129,7 @@
     transition: ease-in-out all 0.2s;
 }
 
-.pricing__item-order:hover, .pricing__item-order:active {
+.study__item-order:hover, .study__item-order:active {
     transition: ease-in-out all 0.2s;
     color: var(--text-color);
     background-color: var(--alternative-button-highlight-color);
@@ -137,16 +137,16 @@
 }
 
 @media (min-width: 768px) {
-    .pricing {
+    .study {
         padding: 92.5px 32px 95px 32px;
     }
 
-    .pricing__title {
+    .study__title {
         font-size: 40px;
         letter-spacing: 1.2px;
     }
 
-    .pricing__item {
+    .study__item {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: auto;
         row-gap: 0;
@@ -154,47 +154,47 @@
         margin-top: 30px;
     }
 
-    .pricing__item-image {
+    .study__item-image {
         height: 70px;
     }
 
-    .pricing__item-type, .pricing__item-price {
+    .study__item-type, .study__item-price {
         font-size: 24px;
     }
 
-    .pricing__item-divider {
+    .study__item-divider {
         height: 27px;
     }
 
-    .pricing__item-price-per {
+    .study__item-price-per {
         font-size: 19px;
     }
 }
 
 @media (min-width: 992px) {
-    .pricing {
+    .study {
         padding: 95px 40px 100px 40px;
     }
 
-    .pricing__title {
+    .study__title {
         font-size: 46px;
         letter-spacing: 1.38px;
     }
 
-    .pricing__item {
+    .study__item {
         padding: 35px 14px;
         margin-top: 30px;
     }
 
-    .pricing__item-type, .pricing__item-price {
+    .study__item-type, .study__item-price {
         font-size: 26px;
     }
 
-    .pricing__item-divider {
+    .study__item-divider {
         height: 27px;
     }
 
-    .pricing__item-price-per {
+    .study__item-price-per {
         font-size: 21px;
     }
 }

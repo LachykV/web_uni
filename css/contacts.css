@@ -117,10 +117,10 @@
     }
 
     .contacts__form {
-        padding-top: 5%; /* 10% от высоты блока */
-        padding-bottom: 27%; /* 10% от высоты блока */
-        padding-left: 10%; /* 5% от ширины блока */
-        padding-right: 10%; /* 5% от ширины блока */
+        padding-top: 5%;
+        padding-bottom: 15%; 
+        padding-left: 10%; 
+        padding-right: 10%; 
 
     }
 
